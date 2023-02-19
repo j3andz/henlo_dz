@@ -4,7 +4,7 @@ import socket
 import http.server
 import socketserver
 
-PORT = 1485
+PORT = int(input('Puerto: '))
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.connect(("gmail.com", 80))
