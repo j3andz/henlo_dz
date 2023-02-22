@@ -1,12 +1,41 @@
-# henlo
-webkit-based jailbreak for Playstation Vita/TV on firmware 3.65+
 
-![bootstrap-idle](https://user-images.githubusercontent.com/30833773/211209121-d036c67b-9ed3-444c-b4d2-5932ad5466e5.jpg)
+# 🍕 henlo_dz  🍕
 
-## usage
-visit ```jailbreak.psp2.dev``` using the Playstation Vita/TV web browser
+Jailbreak basado en Webkit para PlayStation Vita/TV en Firmware 3.65 hasta 3.74
 
-![pic-browser-idle](https://user-images.githubusercontent.com/30833773/211209156-1e204953-e533-43e8-aba6-69f8840626a8.jpg)
+Este Mod es basado en [henlo_jb](https://github.com/SKGleba/henlo_jb)
 
-## this project is currently in the beta phase
-focus: bootstrap stability and overall functionality
+
+## ❕ Cambios ❕
+Los cambios que se realizaron en este Mod fueron los siguientes.
+
+- Traducción total a Español
+- Se actualizo el archivo server.py y ahora se corre usando Python3
+## 📦 Requerimientos 📦
+
+Para correr la web ya sea de forma local o en un servidor, necesitas tener instalado en tu sistema, Python3 
+## ⚙️ Correr el Servidor ⚙️
+
+Clona el Proyecto
+
+```python
+  git clone https://github.com/j3andz/henlo_dz
+```
+
+Entra a la carpeta del proyecto
+
+```bash
+  cd henlo_dz
+```
+
+Corre el servidor
+
+```python
+  python server.py
+```
+Si lo desea puede cambiar el Puerto, tan solo edita el archivo server.py y cambia el valor de la variable PORT y introduce su puerto.
+
+
+## 🚀 Imágenes 🚀
+
+![image_1](https://github.com/j3andz/henlo_dz/blob/main/image/image_1.png)
