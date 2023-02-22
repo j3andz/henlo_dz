@@ -35,6 +35,7 @@ Corre el servidor
 ```
 Si lo desea puede cambiar el Puerto, tan solo edita el archivo server.py y cambia el valor de la variable PORT y introduce su puerto.
 
+Para poder usarlo local debe tener su PSVITA conectada a la misma red wifi a la que esta conectada su PC.
 
 ## 🚀 Imágenes 🚀
 
