@@ -39,3 +39,8 @@ Si lo desea puede cambiar el Puerto, tan solo edita el archivo server.py y cambi
 ## 🚀 Imágenes 🚀
 
 ![image_1](https://github.com/j3andz/henlo_dz/blob/main/image/image_1.png)
+## 🍪 Créditos 🍪
+
+Créditos por el hack a 
+
+[TheOfficialFloW](https://github.com/TheOfficialFloW/HENlo)
