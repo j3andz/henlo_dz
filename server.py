@@ -1,27 +1,40 @@
+#!/usr/bin/env python3
+
+import socket
+import http.server
+import socketserver
 import asyncio
-from aiohttp import web
-
-"""Función para indicar que debe de levantar el index.html """
-async def handle(request):
-    with open('index.html') as f:
-        return web.Response(text=f.read(), content_type='text/html')
-async def init_app():
-    app = web.Application()
-    app.add_routes([
-    web.get('/', handle)
-    ])
-    return app
 
 
-"""Función que se llama desde el script principal main.py para correr el servidor junto al Bot"""
+
+
+
 async def run_server():
-    app = await init_app()
-    runner = web.AppRunner(app)
-    await runner.setup()
-    site = web.TCPSite(runner, 'localhost', 8080)
-    await site.start()
+    ip = socket.gethostbyname(socket.gethostname())
+    print(ip)
+    PORT = 8080
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.connect(("gmail.com", 80))
+    localIP = s.getsockname()[0]
+    s.close()
+    print('''
+    _   _   _____   _   _   _                       _       
+    | | | | | ____| | \ | | | |   ___             __| |  ____
+    | |_| | |  _|   |  \| | | |  / _ \           / _` | |_  /
+    |  _  | | |___  | |\  | | | | (_) |         | (_| |  / / 
+    |_| |_| |_____| |_| \_| |_|  \___/   _____   \__,_| /___|
+                                        |_____|              
+    ''')
+    print("Servidor Iniciado en " + localIP + ":" + str(PORT))
+    print('''\n
+    Para más información entre a https://github.com/j3andz/henlo_dz
 
-"""Corremos el Servidor"""
+    Recuerde esté fue un simple Mod que hice a partir de https://github.com/SKGleba/henlo_jb
+    ''')
+    Handler = http.server.SimpleHTTPRequestHandler
+    server = socketserver.TCPServer(('0.0.0.0', PORT), Handler)
+    server.serve_forever()
+
 if __name__ == '__main__':
     loop: asyncio.AbstractEventLoop = asyncio.get_event_loop_policy().get_event_loop()
     loop.create_task(run_server())
