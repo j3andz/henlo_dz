@@ -7,6 +7,11 @@ Este Mod es basado en [henlo_jb](https://github.com/SKGleba/henlo_jb)
 
 Mi Comunidad de Telegram [Pixel.DZ](https://t.me/PixelDZ)
 
+## 🏴‍☠️ Web Activa 🏴‍☠️
+Entra al siguiente enlace desde tu PSVITA para hackearla 🏴‍☠️
+
+https://henlo-dz.onrender.com/
+
 ## ❕ Cambios ❕
 Los cambios que se realizaron en este Mod fueron los siguientes.
 
