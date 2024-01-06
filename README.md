@@ -5,7 +5,7 @@ Jailbreak basado en Webkit para PlayStation Vita/TV en Firmware 3.65 hasta 3.74
 
 Este Mod es basado en [henlo_jb](https://github.com/SKGleba/henlo_jb)
 
-Mi Canal de Telegram [Pixel.DZ](https://t.me/j3andev)
+Mi Canal de Telegram [J3an Dev](https://t.me/j3andev)
 
 ## ❕ Cambios ❕
 Los cambios que se realizaron en este Mod fueron los siguientes.
